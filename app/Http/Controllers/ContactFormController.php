@@ -8,9 +8,9 @@ use Illuminate\Support\Facades\Mail;
 
 class ContactFormController extends Controller
 {
-   public function(){
+    public function form(){
     return view('contact.form');
-   }
+    }
    public function send(Request $request)
    {
     $data = $request->validate([
