@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactFormController;
+use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +18,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('nosotros', [MainController::class, 'nosotros'])->name('nosotros');
+
+
+/**
+Route::get('', [, ''])->name('');
+ */
 
 Route::get('contact', [ContactFormController::class, 'form'])->name('contact.form');
 Route::post('send-form', [ContactFormController::class, 'send'])->name('contact.send');

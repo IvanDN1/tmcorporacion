@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Contact Form</title>
-</head>
-<body>
+@extends('components.layout.layout')
+@section('content')
+<section>
+    <div class="bg-light rounded-4 py-5 px-4 px-md-5">
+        <div class="text-center mb-5">
+            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+            <h1 class="fw-bolder">Get in touch</h1>
+            <p class="lead fw-normal text-muted mb-0">Lets work together!</p>
+        </div>
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-8 col-xl-6">
     <div class="container mt-3">
         <div class="row">
             <div class="col-md-12">
@@ -20,10 +18,11 @@
                         <label class="col-sm-2 col-form-label">Name</label>
                         <div class="col-sm-10">
                             <input type="text" class="form-control" name="name" placeholder="name">
+                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">Celular Number</label>
+                        <label class="col-sm-2 col-form-label">Celular</label>
                         <div class="col-sm-10">
                             <input type="text" class="form-control" name="phone" placeholder="phone">
                         </div>
@@ -43,13 +42,13 @@
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">Message</label>
                         <div class="col-sm-10">
-                            <textarea name="message" cols="50" placeholder="Message"></textarea>
+                            <textarea name="message" cols="64" placeholder="Message"></textarea>
                         </div>
-                        <button class="btn btn-info col-md-10">Submit</button>
+                        <button class="btn btn-outline-success col-md-20">Submit</button>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-</body>
-</html>
+</section>
+@endsection
