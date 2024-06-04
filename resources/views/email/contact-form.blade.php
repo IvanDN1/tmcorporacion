@@ -9,10 +9,10 @@
 <body>
     <div class="card">
         <div class="card-header">
-            New message from contact form
+            <h1>Nuevo mensaje</h1>
         </div>
         <div class="card-body">
-          <h3 class="card-title">Datos del mensaje</h3>
+          <h3 class="card-title">Datos</h3>
           <p class="card-text"><b>Name:</b> {{ $data['name'] }}</p>
           <p class="card-text"><b>Subject:</b> {{ $data['subject'] }}.</p>
           <p class="card-text"><b>Email:</b> {{ $data['email'] }}.</p>

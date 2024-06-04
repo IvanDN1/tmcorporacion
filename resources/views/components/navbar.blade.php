@@ -5,11 +5,11 @@
         </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
-            <li class="nav-item active">
-                <button type="button" class="btn btn-outline-success"><a class="nav-link" href="/">Inicio</a></button>
+            <li class="nav-item active badge-primary">
+                <button type="button" class="btn btn-success btn-lg"><a class="nav-link" href="/">Inicio</a></button>
             </li>
-            <li class="nav-item">
-                <button type="button" class="btn btn-outline-success"><a class="nav-link" href="/nosotros">Nosotros</a></button>
+            <li class="nav-item g-col-4">
+                <button type="button" class="btn btn-success btn-lg"><a class="nav-link" href="/nosotros">Nosotros</a></button>
             </li>
             <li class="nav-item">
                 <button type="button" class="btn btn-outline-success"><a class="nav-link" href="/contact">Contacto</a></button>

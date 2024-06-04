@@ -88,7 +88,20 @@
                     </a>
                 </div>
             </div>
-
+            <div class="card">
+                <div class="card-body">
+                  This is some text within a card body.
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/images/diseñando.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text text-light-emphasis">La responsabilidad es uno de nuestros pilares mas fundamentales,
+                    encaminándonos hacia la excelencia, valorando la capacidad de adaptación,
+                    el trabajo duro, la resiliencia y perseverancia en la búsqueda de nuevos conocimientos,
+                    habilidades y estrategias.</p>
+                </div>
+              </div>
     </section>
     <section class=" bg-gradient-primary-to-secondary6 text-white py-3">
         <div class="container px-5 my-5">
