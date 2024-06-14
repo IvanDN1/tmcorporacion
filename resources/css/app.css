@@ -1,8 +1,7 @@
-.navb.bg-gradient-primary-to-secondary {
-    background: rgb(51, 138, 51);
-    background: linear-gradient(135deg, rgb(125, 228, 125) 0%, rgb(176, 223, 194) 100%);
-    font-size: 80;
- }
+.navbar {
+    margin-bottom: 20px;
+  }
+
 /** eta siendo usado*/
 
 .bg-gradient-primary-to-secondary2 {
