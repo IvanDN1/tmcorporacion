@@ -1,10 +1,63 @@
-card-text
+.navb.bg-gradient-primary-to-secondary {
+    background: rgb(51, 138, 51);
+    background: linear-gradient(135deg, rgb(125, 228, 125) 0%, rgb(176, 223, 194) 100%);
+    font-size: 80;
+ }
+/** eta siendo usado*/
 
-.body {
-    background-color: aquamarine;
+.bg-gradient-primary-to-secondary2 {
+    background: rgb(51, 138, 51);
+    background: linear-gradient(135deg, rgb(54, 188, 54) 0%, rgb(166, 216, 192) 100%);
+    font-size: 80;
+ }
+
+/** eta siendo usado*/
+
+.bg-gradient-primary-to-secondary3 {
+    background: rgb(0, 102, 204);
+    background: linear-gradient(135deg, rgb(0, 0, 128) 5%, rgb(0, 191, 255) 95%);
+    font-size: 50;
 }
 
-.p {
-    font-family: verdana;
-    font-size: 20px;
-  }
+/** eta siendo usado*/
+
+.bg-gradient-primary-to-secondary6 {
+    background: rgb(24, 25, 97);
+    background: linear-gradient(135deg, rgb(1, 31, 97) 5%, rgb(0, 128, 128) 95%);
+    font-size: 50;
+}
+
+/** eta siendo usado*/
+.bg-gradient-primary-to-secondary7 {
+    background: rgb(152, 255, 152);
+    background: linear-gradient(135deg, rgb(152, 255, 152) 0%, rgb(195, 255, 195) 100%);
+    font-size: 50;
+}
+
+/** eta siendo usado*/
+
+p{
+    text-align: justify content;
+    font-style: monospace;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color:rgb(179, 148, 36);
+}
+
+/** eta siendo usado*/
+
+.mih6{
+    color: rgb(48, 129, 129);
+}
+
+/** eta siendo usado*/
+
+.text-gradient{
+    color: rgb(215, 71, 157);
+}
+
+/** eta siendo usado*/
+.pclass{
+    color: rgb(101, 42, 150);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

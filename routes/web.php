@@ -20,12 +20,9 @@ Route::get('/', function () {
 });
 
 
-Route::get('nosotros', [MainController::class, 'nosotros'])->name('nosotros');
+Route::get('/', [MainController::class, 'welcome'])->name('home');
+Route::view('/nosotros', [MainController::class, 'nosotros'])->name('nosotros');
 
-
-/**
-Route::get('', [, ''])->name('');
- */
 
 Route::get('contact', [ContactFormController::class, 'form'])->name('contact.form');
 Route::post('send-form', [ContactFormController::class, 'send'])->name('contact.send');

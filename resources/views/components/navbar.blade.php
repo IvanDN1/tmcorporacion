@@ -1,19 +1,20 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item active badge-primary">
-                <button type="button" class="btn btn-success btn-lg"><a class="nav-link" href="/">Inicio</a></button>
-            </li>
-            <li class="nav-item g-col-4">
-                <button type="button" class="btn btn-success btn-lg"><a class="nav-link" href="/nosotros">Nosotros</a></button>
-            </li>
-            <li class="nav-item">
-                <button type="button" class="btn btn-outline-success"><a class="nav-link" href="/contact">Contacto</a></button>
-            </li>
-        </ul>
+<nav class="navbar navbar-expand-lg navbar-light" >
+    <div class="container-fluid">
+        <a href="https://www.tmcorporacion.cl/" class="navbar-brand d-none d-md-flex align-items-center m-0 mr- 4 p-0 aabtn">
+            <img src="/images/LogoATE2.png" alt="Logo de la empresa"  class="Logo mr-1" id="LogoATE" width="250px">
+        </a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarColor03">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/nosotros">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">CONTACTANOS</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>

@@ -3,8 +3,6 @@
     <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Inicio</a></li>
     <li class="nav-item"><a href="/nosotros" class="nav-link px-2 text-body-secondary">Nosotros</a></li>
     <li class="nav-item"><a href="/contact" class="nav-link px-2 text-body-secondary">Contacto</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
     </ul>
-    <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+    <p class="text-center text-body-secondary">© 2024 TMCorporación, Inc</p>
 </footer>
