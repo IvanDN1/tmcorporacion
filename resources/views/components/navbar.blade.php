@@ -1,18 +1,23 @@
-<nav class="navbar navbar-expand-lg navbar-light" >
-    <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
-        <a href="https://www.tmcorporacion.cl/" class="navbar-brand d-none d-md-flex align-items-center m-0 mr- 4 p-0 aabtn">
-            <img src="/images/LogoATE2.png" alt="Logo de la empresa"  class="Logo mr-1" id="LogoATE" width="250px">
-        </a>
-      <ul class="navbar-nav col-lg-6 justify-content-lg-center">
-        <li class="nav-item">
-            <a class="nav-link" href="/">INICIO</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/nosotros">NOSOTROS</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/contact">CONTACTANOS</a>
-        </li>
-      </ul>
-    </div>
-</nav>
+<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+
+<div class="topnav" id="myTopnav">
+  <a href="/" class="active"><i class="fa fa-fw fa-home"></i>Home</a>
+  <a href="/nosotros"><i class="fa fa-fw fa-user"></i>NOSOTROS</a>
+  <a href="/contact"><i class="fa fa-fw fa-envelope"></i>CONTACTANOS</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+ </script>
+

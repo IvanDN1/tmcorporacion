@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+/*
 Route::get('/', function () {
     return view('welcome');
 });
-
+**/
 
 Route::get('/', [MainController::class, 'welcome'])->name('home');
 Route::view('/nosotros', [MainController::class, 'nosotros'])->name('nosotros');
