@@ -1,8 +1,23 @@
-/*top nav css*/
 
- /* Add a black background color to the top navigation */
+/** eta siendo usado*/
+
+.bg-gradient-primary-to-secondary3 {
+    background: rgb(0, 102, 204);
+    background: linear-gradient(135deg, rgb(0, 0, 128) 5%, rgb(0, 191, 255) 95%);
+    font-size: 50;
+}
+
+/** eta siendo usado*/
+
+.bg-gradient-primary-to-secondary6 {
+    background: rgb(24, 97, 56);
+    background: linear-gradient(135deg, rgb(1, 97, 25) 5%, rgb(0, 128, 96) 95%);
+    font-size: 50;
+}
+
+/* Add a black background color to the top navigation */
 .topnav {
-    background-color: #029533;
+    background-color: #00a336;
     overflow: hidden;
   }
 
@@ -34,31 +49,13 @@
     display: none;
   }
 
-  /** degrade de lineas boton tmcapacitacion*/
-
-  .bg-gradient-primary-to-secondary3 {
-    background: rgb(0, 102, 204);
-    background: linear-gradient(135deg, rgb(0, 0, 128) 5%, rgb(0, 191, 255) 95%);
-    font-size: 50;
-}
-
-/** degrade lineas de separacion*/
-
-.bg-gradient-primary-to-secondary6 {
-    background: rgb(24, 97, 56);
-    background: linear-gradient(135deg, rgb(1, 97, 25) 5%, rgb(0, 128, 96) 95%);
-    font-size: 50;
-}
 
 
 
-
-
-
-/*top nav**/
+  /*top nav**/
 
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;

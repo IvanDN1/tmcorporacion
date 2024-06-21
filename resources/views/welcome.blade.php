@@ -1,10 +1,14 @@
 @extends('layout.layout')
+<link href="{{ asset('css/card.css') }}" rel="stylesheet">
+<link href="{{ asset('css/flipycard.css') }}" rel="stylesheet">
+<link href="{{ asset('css/bookcard.css') }}" rel="stylesheet">
 
 @section('content')
+
 <div class="cardeck">
     <div class="row justify-content-center text-center">
         <div class="col-sm-5 col-md-4">
-            <div class="card">
+            <div class="card1">
                 <div class="content">
                     <p class="heading">SOMOS TM CORPORACION</p>
                     <p class="para">
@@ -29,6 +33,8 @@
         </div>
     </div>
 </div>
+
+
 </section>
     <section class=" bg-gradient-primary-to-secondary6 text-white py-3">
     </section>

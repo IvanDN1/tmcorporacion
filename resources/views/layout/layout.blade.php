@@ -12,11 +12,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('js/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="icon" type="image/png" href="/images/IconATE.png">
     <title>{{ $title ?? 'TmCorporación' }}</title>
 </head>
-    @include('components.navbar')
-    @include('components.carousel')
+<body>
+@include('components.navbar')
+@include('components.header')
 <section class="row bg-gradient-primary-to-secondary6 text-white py-3">
 </section>
 <section class="row bg-gradient-primary-to-secondary3 py-2">
@@ -32,5 +34,7 @@
 <section class="row bg-gradient-primary-to-secondary6 text-white py-3">
 </section>
 @include('components.footer')
-    </body>
-    </html>
+</body>
+</html>
+
+
