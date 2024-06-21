@@ -1,4 +1,4 @@
-@extends('components.layout.layout')
+@extends('layout.layout')
 @section('content')
 <section>
     <div class="bg-light rounded-4 py-5 px-4 px-md-5">
