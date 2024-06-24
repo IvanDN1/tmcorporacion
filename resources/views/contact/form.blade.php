@@ -5,7 +5,7 @@
         <div class="bg-light rounded-4 py-5 px-4 px-md-5">
             <div class="text-center mb-5">
                  <div class="card">
-                    <div class="content">
+                    <div class="content justify-content-center">
                         <img class="img-fluid" src="/images/LogoATE2.jpg" alt="..." />
                         <p class="lead fw-normal text-muted mb-0">Trabajemos Juntos!</p>
                     </div>
