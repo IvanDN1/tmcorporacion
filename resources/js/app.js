@@ -1,6 +1,6 @@
 
 import * as bootstrap from 'bootstrap';
-import './main';
+
 // js vanish carousel
 
 
