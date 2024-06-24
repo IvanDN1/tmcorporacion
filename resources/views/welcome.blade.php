@@ -11,7 +11,6 @@
         <div class="col-sm-5 col-md-4">
             <div class="card1">
                 <div class="content">
-                    <p class="heading">SOMOS TM CORPORACION</p>
                     <p class="para">
                         TM corporación es una ATE que se enfoca en entregar asesorías y
                         capacitaciones a comunidades educativas, entregamos innovación en forma de nuevas
@@ -28,7 +27,8 @@
         <div class="col-sm-5 col-md-4">
             <div class="card">
                 <div class="content">
-                    <img class="img-fluid" src="/images/diseñando.jpg" alt="..." />
+                    <p class="heading">SOMOS TM CORPORACION</p>
+                    <img class="img-fluid" src="/images/Diseñando.png" alt="..." />
                 </div>
             </div>
         </div>
