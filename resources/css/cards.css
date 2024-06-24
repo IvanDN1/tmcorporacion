@@ -66,16 +66,16 @@
 
   .card:hover::before {
     scale: 7;
-    opacity: 1;
+    opacity: 0;
   }
 
   .card:hover::after {
     scale: 7;
-    opacity: 1;
+    opacity: 0;
   }
 
   .card:hover .content .heading {
-    color: none;
+    color: #000000;
   }
 
   .card:hover .content .para {
