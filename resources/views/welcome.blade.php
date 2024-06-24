@@ -1,5 +1,9 @@
 @extends('layout.layout')
 <link href="{{ asset('css/cards.css') }}" rel="stylesheet">
+@vite([
+  'resources/css/app.scss',
+  'resources/js/app.js',
+ ])
 @section('content')
 
 <div class="cardeck">
