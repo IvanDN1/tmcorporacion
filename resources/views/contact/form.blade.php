@@ -3,7 +3,7 @@
 <section class="py-5">
     <div class="container px-5">
         <div class="bg-light rounded-4 py-5 px-4 px-md-5">
-            <div class="text-center mb-5 justify-content-center">
+            <div class="row gx-8 justify-content-center">
                  <div class="card">
                     <div class="content">
                         <img class="img-fluid" src="/images/LogoATE2.jpg" alt="..." />
@@ -11,6 +11,7 @@
                     </div>
                 </div>
             </div>
+            <br>
             <div class="row gx-8 justify-content-center">
                 <div class="col-lg-8 col-xl-8">
                     <form action="{{ route('contact.send') }}" method="POST">
