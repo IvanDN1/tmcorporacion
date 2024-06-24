@@ -44,6 +44,7 @@
     top: -5.2rem;
     width: 10.4rem;
     height: 10.4rem;
+    background: none;
     z-index: 0;
     opacity: 0;
     border-radius: 50%;
@@ -56,6 +57,7 @@
     bottom: -5.2rem;
     width: 10.4rem;
     height: 10.4rem;
+    background: none;
     z-index: 0;
     opacity: 0;
     border-radius: 50%;
@@ -72,7 +74,9 @@
     opacity: 1;
   }
 
-
+  .card:hover .content .heading {
+    color: none;
+  }
 
   .card:hover .content .para {
     color: #ffffff;
